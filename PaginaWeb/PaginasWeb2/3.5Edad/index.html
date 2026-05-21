@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona Menor</title>
+    <link rel="stylesheet" href="scripts/style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>👦 Persona Menor 👧</h1>
+
+        <div class="formulario">
+
+            <div class="persona">
+                <h3>Persona 1</h3>
+                <input type="text" id="nombre1" placeholder="Nombre">
+                <input type="number" id="edad1" placeholder="Edad">
+            </div>
+
+            <div class="persona">
+                <h3>Persona 2</h3>
+                <input type="text" id="nombre2" placeholder="Nombre">
+                <input type="number" id="edad2" placeholder="Edad">
+            </div>
+
+            <div class="persona">
+                <h3>Persona 3</h3>
+                <input type="text" id="nombre3" placeholder="Nombre">
+                <input type="number" id="edad3" placeholder="Edad">
+            </div>
+
+        </div>
+
+        <button onclick="verificarMenor()">
+            Ver Persona Menor
+        </button>
+
+        <h2 id="resultado"></h2>
+
+    </div>
+
+    <script src="scripts/functions.js"></script>
+
+</body>
+
+</html>

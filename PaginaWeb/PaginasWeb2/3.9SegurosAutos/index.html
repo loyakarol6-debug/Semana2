@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguro de Autos</title>
+    <link rel="stylesheet" href="scripts/style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>🚘 Seguro de Autos</h1>
+
+        <select id="poliza">
+            <option value="">Selecciona póliza</option>
+            <option value="A">Cobertura Amplia (A)</option>
+            <option value="B">Daños a Terceros (B)</option>
+        </select>
+
+        <input type="number" id="edad" placeholder="Ingresa tu edad">
+
+        <div class="checks">
+
+            <label>
+                <input type="checkbox" id="alcohol">
+                Consume alcohol
+            </label>
+
+            <label>
+                <input type="checkbox" id="lentes">
+                Usa lentes
+            </label>
+
+            <label>
+                <input type="checkbox" id="enfermedad">
+                Tiene enfermedad
+            </label>
+
+        </div>
+
+        <button onclick="calcularSeguro()">
+            Calcular Seguro
+        </button>
+
+        <div id="resultado"></div>
+
+    </div>
+
+    <script src="scripts/functions.js"></script>
+
+</body>
+
+</html>
